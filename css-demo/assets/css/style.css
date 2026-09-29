@@ -47,7 +47,7 @@ header.primary{
 
 header.primary a{
   color:#ffffff;
-  text-declaration:none;
+  text-decoration:none;
 }
 
 header.primary h1{
@@ -68,4 +68,3 @@ padding:0;}
 nav.primary ul li{
   background:green;
   list-style-type:none;}
-nav.primary ul li a{}
