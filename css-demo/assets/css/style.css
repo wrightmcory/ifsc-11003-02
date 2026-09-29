@@ -63,6 +63,9 @@ header.primary p.subtitle{
   letter-spacing: 5px;
 }
 
-nav.primary ul{background:red;}
-nav.primary ul li{background:green;}
+nav.primary ul{background:red;
+padding:0;}
+nav.primary ul li{
+  background:green;
+  list-style-type:none;}
 nav.primary ul li a{}
