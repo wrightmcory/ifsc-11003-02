@@ -25,10 +25,11 @@ html {
 body{
     font-family: "Lato", sans-serif;
     margin:0;
+    
 }
 
 header.primary{
-  background-color:#3b6b8b;
+  background-color:#958840;
   color:#ffffff;
   text-align:center;
   text-shadow:1px 1px #000000;
@@ -51,4 +52,13 @@ header.primary a{
 
 header.primary h1{
   font-size: 2.6rem;
+  margin:0;
+}
+
+header.primary p.subtitle{
+  font-size:1.5rem;
+  font-weight:bold;
+  /* top | l/r | Bottom */
+  margin:10px 0 20px;
+  letter-spacing: 5px;
 }
