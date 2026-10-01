@@ -81,4 +81,25 @@ nav.primary ul li a{
   display:block;
   border: 3px double #ffffff;
   border-radius: 5px;
+  transition:.3s;
+}
+
+nav.primary ul li a:hover{
+  background-color:rgba(255, 255, 255, .5);
+
+}
+
+
+
+/*------------Media Queries--------------*/
+
+@media screen and (max-width:500px){
+  nav.primary ul {
+  flex-direction:column;
+  gap:5px;
+}
+
+
+
+
 }
