@@ -8,7 +8,17 @@ html {
   box-sizing: inherit;
 }
  
- 
+
+/*-----------------Utility Classes------------------*/
+.container{
+  width:80vw;
+  margin: 40px auto;
+}
+
+
+
+
+/*-----------------Global Styles------------------*/
 /* Skip link utility: hidden until focused */
 .visually-hidden {
   border: 0;
@@ -96,7 +106,7 @@ nav.primary ul li a:hover{
 @media screen and (max-width:500px){
   nav.primary ul {
   flex-direction:column;
-  gap:5px;
+  gap:10px;
 }
 
 
