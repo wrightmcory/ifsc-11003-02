@@ -117,10 +117,36 @@ nav.primary ul li a:hover{
   display:flex;
   flex-direction:row;
   justify-content:space-between;
+  flex-wrap: wrap;
+  gap:20px;
 }
 
+#blog figure{
+  margin:0;
+}
 
+#blog .post{
+  box-shadow: 0 4px 8px rgba(0,0,0,.6);
+  padding:10px;
+  font-size:.8rem;
+  flex:1;
+}
 
+#blog h2{
+  flex: 0 0 100%;
+}
+
+#blog time.post-date, #blog figcaption{
+  text-transform:uppercase;
+  font-size:.7rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Merriweather", serif;
+}
+#blog a{
+  color:aquamarine;
+}
 /*------------Media Queries--------------*/
 
 @media screen and (max-width:500px){
