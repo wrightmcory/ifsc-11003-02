@@ -100,7 +100,13 @@ nav.primary ul li a:hover{
 
 }
 
-
+#content h2{
+  color:#3b638b;
+  border-bottom: 3px dotted #ccc;
+}
+#content p{
+  line-height:2;
+}
 
 /*------------Media Queries--------------*/
 
