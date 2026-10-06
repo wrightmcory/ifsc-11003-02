@@ -105,12 +105,16 @@ nav.primary ul li a:hover{
 /*------------Media Queries--------------*/
 
 @media screen and (max-width:500px){
+  
   nav.primary ul {
   flex-direction:column;
   gap:10px;
 }
 
-
+.container{
+  width:90vw;
+  max-width:400px;
+}
 
 
 }
