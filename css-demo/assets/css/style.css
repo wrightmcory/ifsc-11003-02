@@ -8,6 +8,11 @@ html {
   box-sizing: inherit;
 }
  
+/*-----------------Responsive Images------------------*/
+img{
+  max-width:100%;
+}
+
 
 /*-----------------Utility Classes------------------*/
 .container{
@@ -107,6 +112,14 @@ nav.primary ul li a:hover{
 #content p{
   line-height:2;
 }
+
+#blog{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+
 
 /*------------Media Queries--------------*/
 
