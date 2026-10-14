@@ -6,7 +6,7 @@
   <meta charset="UTF-8" />
   <meta name="description" content="Keyword rich narrative on site purpose" />
   <meta name="author" content="Cory Wright" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   <!-- Style Sheet -->
   <link href="assets/css/style.css" rel="stylesheet" />
@@ -16,18 +16,76 @@
 </head>
 
 <body>
+  <div id="access-tools"> <!---changes to reflect codepen, maybe wrong for me to do --->
+    <a href="#content">Skip to Content</a>
+  </div>
+  <main><!---more changes--->
+    <header class="primary">
+      <h1>Prototype HTML Document Example</h1>
+    </header><!---more changes.  another header?-->
+  </main>
   <a class="visually-hidden" href="#main-content">Skip to main content</a>
   <header class="primary">
     <h1><a href="index.html">Building the Modern Web</a></h1>
     <p class="subtitle">HTML5, CSS, JavaScript Fundamentals</p>
     <nav class="primary container" aria-label="Primary">
       <ul>
-        <li><a href="#">Alpha</a></li>
-        <li><a href="#">Bravo</a></li>
-        <li><a href="#">Charlie</a></li>
+        <li><a href="https://ualr.edu#footer" target="_blank">Absolute Link</a></li><!--List updated to match codepen-->
+          <li><a href="pages/about.html">Relative Link</a></li>
+          <li><a href="#demo">Anchor Link</a></li>
+          <li><a href="mailto:email@domain.com">Email Link</a></li>
       </ul>
     </nav>
   </header>
+
+<!--Form added from codepen.  ask for clarification-->
+
+      <form action="processing-script.php" method="post">
+        <fieldset>
+          <legend>Personal Info</legend>
+          <label for="fname">Full Name:</label>
+          <input type="text" id="fname" name="fname" />
+
+          <label for="address">Address:</label>
+          <textarea id="address" name="address"></textarea>
+
+          <label for="color">Favorite Color:</label>
+          <select id="color" name="color">
+            <option value="r">Red</option>
+            <option value="g">Green</option>
+            <option value="b">Blue</option>
+            <option selected>---</option>
+          </select>
+          <input type="submit" value="Take me to your leader" />
+        </fieldset>
+      </form>
+      
+      <!--Table added, clarify whether this needs to be styled in css-->
+
+      <table border="1">
+        <caption>Grocery List</caption>
+        <tr>
+          <th scope="col">Item</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Cost</th>
+        </tr>
+        <tr>
+          <td>Ramen</td>
+          <td>12</td>
+          <td>.45</td>
+        </tr>
+        <tr>
+          <td>Ramen</td>
+          <td>12</td>
+          <td>.45</td>
+        </tr>
+        <tr>
+          <td>Ramen</td>
+          <td>12</td>
+          <td>.45</td>
+        </tr>
+      </table>
+
   <main id="main-content" class="container">
 
     <section id="content">
