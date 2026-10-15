@@ -147,6 +147,44 @@ h1,h2,h3,h4,h5,h6{
 #blog a{
   color:aquamarine;
 }
+
+aside[aria-label="Sidebar"]{
+  background-color:rgb(134, 160, 151)
+  padding: 25px 0;
+}
+
+aside div.container{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  gap:40px;
+}
+
+aside div.container a{
+  color:#ffffff;
+  display:block;
+  margin-top:15px;
+  text-align:center;
+}
+
+aside div.container a:last-child{
+  display:block;
+  margin-top:10px;
+  text-align:center;
+}
+
+aside .widget footer{
+  display:none;
+}
+
+footer.primary{
+  background-color:#958840;
+  padding:5px;
+  color:#ffffff
+  text-align:center;
+  text-shadow: 1px 1px #000000;
+}
+
 /*------------Media Queries--------------*/
 
 @media screen and (max-width:500px){
