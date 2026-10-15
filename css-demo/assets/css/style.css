@@ -213,7 +213,9 @@ nav.primary ul li a:hover {
   color:green;
 }
 
-#practice dl{}
+#practice dl{
+  border-left:#b39c2a; /*placeholder code to forego this error*/
+}
 
 #practice dt{
   font-weight:bold;
@@ -242,10 +244,6 @@ dd + dt{
   text-align:right;
   margin-top:10px;
   font-size:.7rem;
-}
-
-#practice tr{
-
 }
 
 #practice tr:nth-child(even){
