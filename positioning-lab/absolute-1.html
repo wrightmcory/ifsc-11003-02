@@ -23,29 +23,64 @@
       color: #FFF;
       text-align: center;
       line-height: 24px;
+      position: relative;
+      margin: 0;
+      height: 100vh; /*looked this up as well*/
     }
     #wrapper {
       background-color: #FFF;
       border: 1px solid #c0c0c0;
-      width: 800px;
-      margin-right: auto;
-      margin-left: auto;
+      width: 600px;
+      height: 200px;
+      margin: 0 auto;
+      top: 35%;
       text-shadow: 2px 2px #000;
     }
     #navy {
       background-color: #001f3f;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 150px;
+      height: 100px;
+      padding-top: 1px;
     }
     #teal {
       background-color: #39CCCC;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 150px;
+      height: 100px;
+      padding-top: 1px;
     }
     #blue {
       background-color: #0074D9;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 150px;
+      height: 100px;
+      padding-top: 1px;
     }
     #aqua {
       background-color: #7FDBFF;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 150px;
+      height: 100px;
+      padding-top: 1px;
     }
     #footer {
       background-color: #666;
+      position: absolute;
+      top: 18%;
+      left: 50%;
+      transform: translateX(-50%); /*I ended up looking this up*/
+      width: 150px;
+      height: 150px;
+      padding-top: 1px;
     }
     h1 {
       color: #000;
