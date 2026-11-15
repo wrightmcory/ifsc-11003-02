@@ -1,0 +1,179 @@
+/* --Box Sizing-- */
+html {
+    box-sizing: border-box;
+}
+
+/* --Responsive Images-- */
+img {
+    max-width: 100%;
+    height: auto;
+    display:block;
+}
+
+/* --Utility Classes-- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* --Global Styles-- */
+body {
+    font-family: "Lato", sans-serif;
+    margin:0;
+    background-color: #f4f6f9;
+    color: #1e293b;
+}
+
+header.primary{
+    background-color: #0a192f;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 8px solid #f4c430;
+    background-image: linear-gradient(rgba(10, 25, 47, 0.9), rgba(10, 25, 47, 0.9))
+}
+
+header.primary a {
+    color:#ffffff;
+    text-decoration: underline;
+}
+
+header.primary h1{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header.primary p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+    color: #cbd5e1;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header-emblem {
+    width: 100px;
+    height: auto;
+}
+
+
+nav.primary ul {
+    padding: 50px 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-direction: row;
+}
+
+nav.primary ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav.primary ul li a:hover {
+    background-color: #f4c430;
+    color: #0a192f;
+    border-radius: 5px;
+}
+
+/*--Main Content Styles-- */
+main {
+    background-color: #f4f6f9;
+}
+
+#overview h2, #vessel-one h2, #vessel-two h2, #faq h2 { /* ask instructor if he would prefer a selector that groups these, I prefer this way for clarity.  Container id in place just in case prof Wallace wants it other way */
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #0a192f;
+}
+
+#overview p, #vessel-one p, #vessel-two p, #faq p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #1e293b;
+}
+
+/* --Blog Styles-- */
+#blog {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #cbd5e1;
+    margin-top: 40px;
+    border-top: 2px solid #cbd5e1;
+}
+
+#blog h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #0a192f;
+    text-align: center;
+}
+
+.container-for-blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-for-blog article {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+#blog h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #0a192f;
+}
+
+article.img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* --Footer Styles-- */
+footer.primary {
+    background-color: #0a192f;
+    padding: 20px;
+    color: #cbd5e1;
+    text-align: center;
+    border-top: 8px solid #f4c430;
+    font-size: 1rem;
+}
+
+/* --------- Media Queries ----------- */
+
+@media screen and (max-width: 500px) {
+  nav.primary ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container {
+    width: 90vw;
+  }
+
+  #blog {
+    flex-direction: column;
+  }
+}
