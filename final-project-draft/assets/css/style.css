@@ -131,7 +131,7 @@ main {
 }
 
 .container-for-blog article {
-    background: linear-gradient(to bottom right, #dd3636, #ffffff, #0d1663);
+    background: linear-gradient(to bottom right, #dd3636, #ffffff, #0d1663); /* Gradient was recommended by peer to be swapped with body background for clarity of reading */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
